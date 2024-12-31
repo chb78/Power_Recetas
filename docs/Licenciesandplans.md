@@ -20,7 +20,7 @@ To access ChatGPT and Dall-E as well as their APIs.
 [Link](https://platform.openai.com/docs/overview)
 
 > [!NOTE]  
-> El proyecto está realizado con licencias de prueba, que duran 30 días. Estos planes pueden ser convertidos en planes de pago. Lo que permitirá mejoras en la velocidad de la solución, furas mejoras y ampliaciones.
+> El proyecto está realizado con licencias de prueba, que duran 30 días. Estos planes pueden ser convertidos en planes de pago. Lo que permitirá mejoras en la velocidad de la solución, futuras mejoras y ampliaciones.
 
 
 > [!NOTE]  
