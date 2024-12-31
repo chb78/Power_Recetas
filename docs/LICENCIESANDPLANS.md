@@ -1,4 +1,4 @@
-#Planes de licencias - Licencies 
+# Planes de licencias - Licencies
 
 El proyecto está realizado con licencias de prueba, que duran 30 días. Estos planes pueden ser convertidos en planes de pago. Lo que permitirá mejoras en la velocidad de la solución, furas mejoras y ampliaciones.
 The project is implemented with trial licenses, which last for 30 days. These plans can be converted into paid plans. This will allow improvements in the speed of the solution, further improvements and extensions.
