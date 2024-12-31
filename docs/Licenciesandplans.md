@@ -1,9 +1,5 @@
 # Planes de licencias - Licencies 
 
-El proyecto está realizado con licencias de prueba, que duran 30 días. Estos planes pueden ser convertidos en planes de pago. Lo que permitirá mejoras en la velocidad de la solución, furas mejoras y ampliaciones.
-The project is implemented with trial licenses, which last for 30 days. These plans can be converted into paid plans. This will allow improvements in the speed of the solution, further improvements and extensions.
-
-
 1. **Microsoft Power Apps y Power Automate:**
 Disponibles en el plan Microsoft 365 Estándar y superiores.
 Available on Microsoft 365 Standard plan and above.
@@ -22,3 +18,10 @@ Create a trial subscription and then a subscription, with the Azure Blob Storage
 Para disponer de ChatGPT y Dall-E así como sus APIs.
 To access ChatGPT and Dall-E as well as their APIs.
 [Link](https://platform.openai.com/docs/overview)
+
+> [!NOTE]  
+> El proyecto está realizado con licencias de prueba, que duran 30 días. Estos planes pueden ser convertidos en planes de pago. Lo que permitirá mejoras en la velocidad de la solución, furas mejoras y ampliaciones.
+
+
+> [!NOTE]  
+> The project is implemented with trial licenses, which last for 30 days. These plans can be converted into paid plans. This will allow improvements in the speed of the solution, further improvements and extensions.
