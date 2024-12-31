@@ -20,13 +20,16 @@ Comparto igualmente un vídeo de funcionamiento de la solución y documento .PDF
 
 # ¿Por qué es útil esta solución?
 El proyecto responde a un reto personal por conocer las posibilidades de integración entre los servicios en la nube de la plataforma de Microsoft y OpenAI.
-Sirve como punto de partida para conocer los límites (a fecha de este documento), y potenciales mejoras así como intercambio de conocimiento.
-A lo largo de la construcción de la solución, he podido detectar que Power Automate necesita de algunos pasos (triggers) para poder realizar acciones, apoyadas en código. (Bajo código convertido en expresiones dinámicas)
+Sirve como punto de partida para conocer los límites (a fecha de este documento), y potenciales mejoras así como intercambio de conocimiento.  
+
+A lo largo de la construcción de la solución, he podido detectar que Power Automate necesita de algunos pasos (triggers) para poder realizar acciones, apoyadas en código. (Bajo código convertido en expresiones dinámicas)  
+
 De manera que se descubre que no todo es "conectar y listo". Pero puede ser fácilmente aprendido por cualquier persona interesada en este tipo de proyectos.
 
 
 # ¿Por dónde empezar?
-Para este proyecto se pueden utilizar las siguientes tecnologías y con sesiones de 30 días de prueba. Más adelante, se puede pasar a planes de pago con el objetivo de encontrar un caso de uso adecuado o hacer evolucionar la solución.
+Para este proyecto se pueden utilizar las siguientes tecnologías y con sesiones de 30 días de prueba. Más adelante, se puede pasar a planes de pago con el objetivo de encontrar un caso de uso adecuado o hacer evolucionar la solución.  
+
 Las tecnologías y licencias utiliados son:
 1. Microsoft Power Apps. 
 2. Microsoft Automate.
@@ -44,7 +47,8 @@ Las tecnologías y licencias utiliados son:
 
 # Power Apps Christmas Recipes with AI 🎄
 <a name="Christmas Recipes with AI"></a>
-This project is a solution designed to explore the possibilities offered by Microsoft's platform through the integration of Power Apps, Power Automate, OpenAI API, and Azure Blob Storage. It generates unique Christmas recipes accompanied by images automatically created using DALL-E. This is an ideal way to learn how to integrate artificial intelligence with Microsoft tools and build useful applications for future use.
+This project is a solution designed to explore the possibilities offered by Microsoft's platform through the integration of Power Apps, Power Automate, OpenAI API, and Azure Blob Storage.   
+It generates unique Christmas recipes accompanied by images automatically created using DALL-E. This is an ideal way to learn how to integrate artificial intelligence with Microsoft tools and build useful applications for future use.
 
 The Power Apps recipe solution relies on a Power Automate flow that performs the following actions:
 
@@ -58,7 +62,8 @@ Additionally, I am sharing a video demonstrating the solution in action and a PD
 
 # Why Is This Solution Useful?
 This project addresses a personal challenge to explore the integration possibilities between Microsoft’s cloud platform services and OpenAI. 
-It serves as a starting point to understand the current limitations (as of the date of this document), identify potential improvements, and foster knowledge sharing. 
+  
+  It serves as a starting point to understand the current limitations (as of the date of this document), identify potential improvements, and foster knowledge sharing. 
 Throughout the development of this solution, I observed that Power Automate requires certain steps (triggers) to perform actions supported by code (low-code converted into dynamic expressions). 
 This highlights that not everything is as simple as "connect and go," but it can easily be learned by anyone interested in this type of project.
 
