@@ -73,3 +73,14 @@ The technologies and licenses used are:
 
 **Through this link you can find the list of licenses and where to obtain them** 
 [Link](https://github.com/chb78/recetas/blob/main/docs/Licenciesandplans.md)
+
+> [!NOTE]  
+># Guía para la construcción de la solución.
+>Para ayudarte (o eso espero haber conseguido), te dejo una guía con los pasos en la siguiente dirección: 
+>[Link](https://github.com/chb78/recetas/blob/main/docs/20241229-PowerApp-RecetasNavide%C3%B1as-V.1.0.pdf)
+
+
+> [!NOTE]  
+># Guide to building the solution.
+>To help you (or at least I hope I have), I am leaving you a guide with the steps at the following address:
+>[Link](https://github.com/chb78/recetas/blob/main/docs/20241229-PowerApp-RecetasNavide%C3%B1as-V.1.0.pdf)
