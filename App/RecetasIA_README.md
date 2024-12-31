@@ -4,7 +4,9 @@
 > Texts in Castilian Spanish. English as follows.
 
 Esta carpeta contiene el fichero .ZIP para ser importado como solución en Power Platform.
-<td> El fichero .ZIP consta de:  
+<td>  
+    
+  El fichero **RecetasIA_1_0_0_1_managed.ZIP** consta de:  
   
 **a. Power Apps de recetas, en cuanto solución móvil:** Esta deverá ser revisada en sus fórmulas (expresiones), para adaptarlas al flujo de Power Automate. Las imágenes que se vayan a guardar en Azure Blob Storage, así como las variables que se deseen declarar en Power Apps.  
 <td>  
@@ -28,12 +30,27 @@ Esta carpeta contiene el fichero .ZIP para ser importado como solución en Power
 > [!NOTE]  
 > English instrucctions
 
-This folder contains the .ZIP file to be imported as a solution in Power Platform.
+This folder contains the **RecetasIA_1_0_0_1_managed.ZIP** file to be imported as a solution in Power Platform.
 <td> The .ZIP file consists of:
 
-**a. Power Apps recipes, as a mobile solution:** This must be reviewed in its formulas (expressions), to adapt them to the Power Automate flow. The images that are going to be saved in Azure Blob Storage, as well as the variables that you want to declare in Power Apps.
-<td>
-
-**b. Power Automate:** Contains the structure or schema with the trigger and actions for the flow. It will be necessary to include the Azure Blob Storage and Open AI APIs.  
+**a. Power Apps recipes, as a mobile solution:** This must be reviewed in its formulas (expressions), to adapt them to the Power Automate flow. The images that are going to be saved in Azure Blob Storage, as well as the variables that you want to declare in Power Apps.  
+  
+  **b. Power Automate:** Contains the structure or schema with the trigger and actions for the flow. It will be necessary to include the Azure Blob Storage and Open AI APIs.  
 
   Images are displayed before. 😉✌️
+
+<td>  
+
+----------
+
+  
+# Importación solución Package.ZIP🎄 
+1. Abrir Power Apps (https://make.powerapps.com/)
+   
+2. Ir al módulo de **Soluciones** (lateral izquierdo de la pantalla).
+   
+3. Importar solución *(imagen abajo)*
+   
+![image](https://github.com/user-attachments/assets/ea14ca8b-0e12-42f6-8683-88d97be7e61b)
+
+
