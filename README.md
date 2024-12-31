@@ -31,13 +31,13 @@ Las tecnologías y licencias utiliados son:
 3. Microsoft Azure Blobstorage.
 4. OpenAI a través de ChatGPT y Dall-E.
 
-A través de este enlace podrás encontrar la relación de licencias y dónde obtenerlas
-[Link](https://github.com/chb78/recetas/blob/main/docs/Licenciesandplans.md)
 
 ![image](https://github.com/user-attachments/assets/f85d7e87-925a-43b9-8297-e1c66c30cb47)
 
 ![image](https://github.com/user-attachments/assets/246a6c14-260b-4fbc-bf31-b3a9dcc8c7f3)
 
+**A través de este enlace podrás encontrar la relación de licencias y dónde obtenerlas** 
+[Link](https://github.com/chb78/recetas/blob/main/docs/Licenciesandplans.md)
 
 
 # Power Apps Christmas Recipes with AI 🎄
@@ -68,3 +68,6 @@ The technologies and licenses used are:
 2. Microsoft Power Automate.
 3. Microsoft Azure Blob Storage.
 4. OpenAI via ChatGPT and DALL-E.
+
+**Through this link you can find the list of licenses and where to obtain them** 
+[Link](https://github.com/chb78/recetas/blob/main/docs/Licenciesandplans.md)
