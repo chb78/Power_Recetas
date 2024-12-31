@@ -1,5 +1,7 @@
 # Power Apps Recetas Navideñas con IA🎄 
-(Text in Castilian Spanish. English as follows)
+> [!NOTE]  
+> Para facilitar su compresión se presentan los textos y guías en Castellano e Inglés
+> Texts in Castilian Spanish. English as follows.
 
 Este proyecto es una solución para explorar las posibilidades que ofrece la combinación de la plataforma de Microsoft, a través de Power Apps, Power Automate, la API de OpenAI y Azure Blob Storage para generar recetas navideñas únicas, acompañadas de imágenes generadas automáticamente mediante DALL-E.  Ideal para aprender cómo integrar inteligencia artificial con herramientas de Microsoft y construir aplicaciones útiles a posteriori.
 
