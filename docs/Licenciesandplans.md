@@ -22,8 +22,3 @@ Create a trial subscription and then a subscription, with the Azure Blob Storage
 Para disponer de ChatGPT y Dall-E así como sus APIs.
 To access ChatGPT and Dall-E as well as their APIs.
 [Link](https://platform.openai.com/docs/overview)
-
-1. Microsoft Power Apps.
-2. Microsoft Power Automate.
-3. Microsoft Azure Blob Storage.
-4. OpenAI via ChatGPT and DALL-E.
