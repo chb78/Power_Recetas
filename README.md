@@ -40,16 +40,19 @@ Las tecnologías y licencias utiliados son:
 
 ![image](https://github.com/user-attachments/assets/f85d7e87-925a-43b9-8297-e1c66c30cb47)
 
-![image](https://github.com/user-attachments/assets/246a6c14-260b-4fbc-bf31-b3a9dcc8c7f3)
+![image](https://github.com/user-attachments/assets/246a6c14-260b-4fbc-bf31-b3a9dcc8c7f3)  
 
-
+  
+## Materiales:
     
 🪄**A través de este enlace podrás encontrar la relación de licencias y dónde obtenerlas** 
 [Link](https://github.com/chb78/recetas/blob/main/docs/Licenciesandplans.md)
 
 
-🚀**A través de este enlace podrás encontrar la guía paso a paso** [Link](https://github.com/chb78/recetas/blob/main/docs/)
+🚀**A través de este enlace podrás encontrar la guía paso a paso con imágenes** [documento PDF](https://github.com/chb78/recetas/blob/main/docs/)  
 
+  
+📖 **A través de este enlace podrás encontrar los pasos para constrir el flujo con** [Power Automate](https://github.com/chb78/Power_Recetas/blob/main/app/Power_Recetas_FlowGuide.md)
   
 -----------------------------
 
