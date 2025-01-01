@@ -37,16 +37,17 @@ En esta parte nos centraremos en las 4 acciones que forman parte de esta secció
    Esta acción nos servirá para llamar a los servicios de ChatGPT disponibles en OpenAI.
    Dentro de la acción, rellenaremos los detalles de la URL, Método, Cabeceras y Cuerpo. Como el ejemplo de la imagen.
 
+   
    **URL:** https://api.openai.com/v1/chat/completions  
 
    **Método:** POST  
 
    **Cabeceras:**
-   ```
-     Authorization: Bearer seguido de Clave (API Key) proporcionada por OpenAI.
   
-     Content-Type: application/json
-   ```
+   Authorization: Bearer seguido de Clave (API Key) proporcionada por OpenAI.
+  
+   Content-Type: application/json
+   
     
    **Body:**  
    
@@ -116,11 +117,73 @@ substring(outputs('Compose'), 0, 1000)
 
 ## 3. Creación de la imagen para la receta (Dall-e).  
 
-  En esta sección nos centraremos en la creación de la imagen y su almaceamiento en Microsoft Azure Blob Storage.  
-  Es importante que en este punto, se cuente con una suscripción de Microsoft Azure, la cual puedes crearla desde [Portal Azure](https://portal.azure.com/)
-  Una vez dentro, crea una suscripción del servicio de almacenamiento "Blob Storage".  
-  En la guía que he preparado con capturas de imágenes, tienes los pasos. [Guía](https://github.com/chb78/Power_Recetas/blob/main/docs/20241229-PowerApp-RecetasNavide%C3%B1as-V.1.0.pdf)  
+  En esta sección nos centraremos en la creación de la imagen y su almaceamiento en Microsoft Azure Blob Storage.
+
+  ![image](https://github.com/user-attachments/assets/d48411c1-0563-4674-a739-f03111d380c3)  
   
 
+  Es importante que en este punto, se cuente con una suscripción de Microsoft Azure, la cual puedes crearla desde [Portal Azure](https://portal.azure.com/)
+  Una vez dentro, crea una suscripción del servicio de almacenamiento "Blob Storage".  
+  En la guía que he preparado con capturas de imágenes, tienes los pasos para activar el servicio de almacenamiento [Guía](https://github.com/chb78/Power_Recetas/blob/main/docs/20241229-PowerApp-RecetasNavide%C3%B1as-V.1.0.pdf)  
 
+  Recuerda que el Blob debe ser del tipo público, para que las imágenes creadas por Dall-e se guarden y después, se presenten en la Power Apps.  
 
+3.1 **Generar la imagen**  
+
+  Añade otro paso "Enviar una solicitud HTTP":
+
+Este paso llama a la API de OpenAI para generar una imagen basada en la receta.
+Configura el paso HTTP:
+
+**URL:** https://api.openai.com/v1/images/generations  
+
+**Método:** POST  
+
+**Cabeceras:**
+  
+   Authorization: Bearer seguido de Clave (API Key) proporcionada por OpenAI.
+  
+   Content-Type: application/json
+
+**Cuerpo:**
+```
+{
+  "prompt": "Imagen de: @{outputs('Componer')}",
+  "n": 1,
+  "size": "1024x1024"
+}
+```
+3.2 **Procesar la imagen**  
+
+  Añade otro paso "Parse JSON" para procesar la respuesta de DALL·E.  
+  El paso se renombrará automáticamente a "Parse JSON 1". Incluye los siguientes contenidos:
+
+  Contenido: El Body de la respuesta HTTP.
+  Esquema: Usa un ejemplo de respuesta típica. (A incluir en el enlace "Usar un ejemplo para la creación de esquema JSON". Imagen abajo).
+
+```
+  {
+  "data": [
+    {
+      "url": "https://example.com/image1.png"
+    }
+  ]
+}
+
+```
+![image](https://github.com/user-attachments/assets/192d5589-6f69-4cb0-afce-029283295fa6)  
+
+3.3 **Obtener la imagen**  
+
+Añade ahora un tercer paso del tipo **"HTTP"**, que en este caso lo vamos a renombrar como "HTTP Dall-e GET".  
+Lo único que incluiremos será en la **URL** la expresión dinámica de la siguiente forma:
+
+```
+body('Parse_JSON_1')?['data'][0]['url']
+```
+
+![image](https://github.com/user-attachments/assets/20dcbdbb-5520-4ae3-a6ed-2e9ea68dcac5)
+
+----------  
+
+## 4. Almacenamiento de la imagen:
