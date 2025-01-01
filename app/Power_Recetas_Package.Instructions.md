@@ -30,7 +30,7 @@ Esta carpeta contiene el fichero .ZIP para ser importado como solución en Power
 > [!NOTE]  
 > English instrucctions
 
-This folder contains the **RecetasIA_1_0_0_1_managed.ZIP** file to be imported as a solution in Power Platform.
+This folder contains the **Power_Recetas_managed.ZIP** file to be imported as a solution in Power Platform.
 <td> The .ZIP file consists of:
 
 **a. Power Apps recipes, as a mobile solution:** This must be reviewed in its formulas (expressions), to adapt them to the Power Automate flow. The images that are going to be saved in Azure Blob Storage, as well as the variables that you want to declare in Power Apps.  
