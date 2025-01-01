@@ -6,6 +6,7 @@
 
 ----------------
 ## 1. Inicio. Creación del flujo.  
+  
 1.1 Abrir la web de **Microsoft Power Automate** [Link](https://make.powerautomate.com/)
 1.2 Acceder al menú lateral izquiero y crear un flujo completamente nuevo (desde cero) del tipo "Flujo de nube automático".
 1.3 Seleccionar el desencadenador **"Cuando Power Apps llama a un flujo versión 2"**
@@ -114,6 +115,12 @@ substring(outputs('Compose'), 0, 1000)
 --------------  
 
 ## 3. Creación de la imagen para la receta (Dall-e).  
+
+  En esta sección nos centraremos en la creación de la imagen y su almaceamiento en Microsoft Azure Blob Storage.  
+  Es importante que en este punto, se cuente con una suscripción de Microsoft Azure, la cual puedes crearla desde [Portal Azure](https://portal.azure.com/)
+  Una vez dentro, crea una suscripción del servicio de almacenamiento "Blob Storage".  
+  En la guía que he preparado con capturas de imágenes, tienes los pasos. [Guía](https://github.com/chb78/Power_Recetas/blob/main/docs/20241229-PowerApp-RecetasNavide%C3%B1as-V.1.0.pdf)  
   
+
 
 
